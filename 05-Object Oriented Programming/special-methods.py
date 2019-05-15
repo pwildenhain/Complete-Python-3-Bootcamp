@@ -46,3 +46,9 @@ print(hp)
 len(hp)
 # delete a variable from my computer's memory
 del hp
+
+# From homework
+
+coordinate1 = (3,2)
+
+coordinate1[0]
