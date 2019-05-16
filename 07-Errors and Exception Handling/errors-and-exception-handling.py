@@ -3,18 +3,20 @@
 
 # try - except- finally is the trifecta of exception handling
 # try
-    # Try to execute this code
+# Try to execute this code
 # except
-    # Run this code if you hit an error
+# Run this code if you hit an error
 # else
-    # Do this code after we are sure there are no errors
+# Do this code after we are sure there are no errors
 # finally
-    # Always run this code after everything is said and done
+# Always run this code after everything is said and done
 
 # Take a simple function as an example
 
+
 def add(a, b):
     print(a + b)
+
 
 add(1, 2)
 print("Good Job")
@@ -37,7 +39,7 @@ finally:
 
 try:
     result = "1" + 1
-except :
+except:
     print("Don't you know how to add?")
 
 
@@ -55,7 +57,7 @@ finally:
     print("Alllll done")
 
 
-def ask_for_int():
+def ask_for_int(x):
     while True:
         try:
             result = int(input("Please enter a number: "))
@@ -67,4 +69,3 @@ def ask_for_int():
             break
         finally:
             print("The End")
-
